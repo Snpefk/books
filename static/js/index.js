@@ -10,8 +10,29 @@ $(document).ready(function () {
         initialize(root);
     });
 
-    function print(text) {
-        $content.append('<p>' + text + '</p>');
+    function getColor(type) {
+        switch (type) {
+            case 'root':
+                return '#3266CC';
+            case 'node':
+                return 'black';
+            case 'true':
+                return 'green';
+            case 'false':
+                return 'red';
+            case 'maybe':
+                return 'blue';
+            case 'book':
+                return 'LightSlateGrey';
+            default:
+                return 'black';
+        }
+    }
+
+    function print(text, type) {
+        var color = getColor(type);
+        var attribute = "style='color:" + color + ";'";
+        $content.append('<p ' + attribute + '>' + text + ' ' + '</p>');
     }
 
     function clear() {
@@ -23,28 +44,29 @@ $(document).ready(function () {
     }
 
     function initialize(root) {
-        print(root.getAttribute('title'));
+        print(root.getAttribute('title'), root.tagName);
         getChildren(root);
     }
 
     function getChildren(node) {
         var children = node.children;
 
-        clear();
         for (var i = 0; i < children.length; ++i) {
             var title = children[i].getAttribute('title');
+            var type = children[i].tagName == 'answer' ? children[i].getAttribute('type') : children[i].tagName; // уберу
             var text = (i + 1) + ' - ' + title;
-            print(text);
+            print(text, type);
         }
     }
 
-    $('input').keypress(function (e) {
+    $input.keypress(function (e) {
         if (e.keyCode == 13) {
             var selectedNumber = this.value;
             root = root.children[selectedNumber - 1];
-            getChildren(root);
-            clearInput();
 
+            clear();
+            clearInput();
+            getChildren(root);
         }
     })
 
