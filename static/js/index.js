@@ -12,27 +12,31 @@ $(document).ready(function () {
 
     function getColor(type) {
         switch (type) {
-            case 'root':
-                return '#3266CC';
             case 'node':
-                return 'black';
+                return 'btn-default';
             case 'true':
-                return 'green';
+                return 'btn-success';
             case 'false':
-                return 'red';
+                return 'btn-danger';
             case 'maybe':
-                return 'blue';
+                return 'btn-info';
             case 'book':
-                return 'LightSlateGrey';
+                return 'btn-primary';
             default:
-                return 'black';
+                return 'btn-default';
         }
     }
 
     function print(text, type) {
-        var color = getColor(type);
-        var attribute = "style='color:" + color + ";'";
-        $content.append('<p ' + attribute + '>' + text + ' ' + '</p>');
+        if (type == 'node') {
+            
+        }
+        var color = "btn " + getColor(type);
+        var button = document.createElement('button');
+        button.className = color+' btn-block';
+        button.innerHTML = text;
+        button.setAttribute('type', 'button');
+        $content.append(button);
     }
 
     function clear() {

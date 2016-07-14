@@ -1,489 +1,485 @@
-<root title="Итак, с чего начнём?">
-    <node title="Фэнтези">
-        <answer type="true" title="Хоть сейчас в страну эльфов">
-            <node title="Скучаете по некогда прочитанному Гарри Поттеру">
-                <answer type="true" title="Дайте больше нежных вьюнешей в школах магии">
-                    <book author="Патрик Ротфусс" title="Хроника Убийцы Короля"/>
-                </answer>
-                <answer type="false" title="Если мне будет нужно, то я его перечитаю">
-                    <node title="Вы неофит в фэнтези?">
-                        <answer type="true" title="Сделайте с этим хоть что-нибудь">
-                            <book author="Дж. Р. Р. Толкин" title="Властелин Колец">
-                                <answer type="false" title="Ну не на столько же неофит, в самом деле">
-                                    <book author="Дж. Р. Р. Толкин" title="Сильмариллион"/>
-                                </answer>
-                            </book>
-                        </answer>
-                        <answer type="maybe" title="'Волшебник страны Оз' считатется?">
-                            <book author="Грегори Магвайр"
-                                  title="Ведьма. Жизнь и времена Западной колдуньи из страны Оз"/>
-                        </answer>
-                        <answer type="false" title="Кто неофит, ты неофит">
-                            <node title="Любите легенды о короле Артуре?">
-                                <answer type="true" title="У меня даже есть 'Меч в камне' на DVD и видеокассете">
-                                    <node title="И какой персонаж больше всего приглянулся">
-                                        <node title="Артур">
-                                            <book author="Теренс Хэнбери Уайт" title="Король былого и грядущего"/>
+<node title="Итак, с чего начнём?">
+    <answer type="true" title="Фэнтези. Хоть сейчас в страну эльфов">
+        <node title="Скучаете по некогда прочитанному Гарри Поттеру">
+            <answer type="true" title="Дайте больше нежных вьюнешей в школах магии">
+                <book author="Патрик Ротфусс" title="Хроника Убийцы Короля"/>
+            </answer>
+            <answer type="false" title="Если мне будет нужно, то я его перечитаю">
+                <node title="Вы неофит в фэнтези?">
+                    <answer type="true" title="Сделайте с этим хоть что-нибудь">
+                        <book author="Дж. Р. Р. Толкин" title="Властелин Колец">
+                            <answer type="false" title="Ну не на столько же неофит, в самом деле">
+                                <book author="Дж. Р. Р. Толкин" title="Сильмариллион"/>
+                            </answer>
+                        </book>
+                    </answer>
+                    <answer type="maybe" title="'Волшебник страны Оз' считатется?">
+                        <book author="Грегори Магвайр"
+                              title="Ведьма. Жизнь и времена Западной колдуньи из страны Оз"/>
+                    </answer>
+                    <answer type="false" title="Кто неофит, ты неофит">
+                        <node title="Любите легенды о короле Артуре?">
+                            <answer type="true" title="У меня даже есть 'Меч в камне' на DVD и видеокассете">
+                                <node title="И какой персонаж больше всего приглянулся">
+                                    <answer title="Артур">
+                                        <book author="Теренс Хэнбери Уайт" title="Король былого и грядущего"/>
+                                    </answer>
+                                    <answer title="Мерлин">
+                                        <book author="Мэри Стюарт" title="Хрустальный грот"/>
+                                    </answer>
+                                    <answer title="Фея Моргана">
+                                        <book author="Мэриан Зиммер Брэдли" title="Туманы Авалона"/>
+                                    </answer>
+                                </node>
+                            </answer>
+                            <answer type="false" title="Скучное старьё">
+                                <node title="Значит ищем современный сеттинг?">
+                                    <answer type="true"
+                                            title="Я, пожалуй, хотел бы почитать о времени, в котором сам живу">
+                                        <node title="Боги или люди под мостовыми">
+                                            <answer title="Современная мифология">
+                                                <book author="Нил Гейман" title="Американские боги"/>
+                                            </answer>
+                                            <answer title="Мир под городом ">
+                                                <book author="Нил Гейман" title="Задверье"/>
+                                            </answer>
                                         </node>
-                                        <node title="Мерлин">
-                                            <book author="Мэри Стюарт" title="Хрустальный грот"/>
-                                        </node>
-                                        <node title="Фея Моргана">
-                                            <book author="Мэриан Зиммер Брэдли" title="Туманы Авалона"/>
-                                        </node>
-                                    </node>
-                                </answer>
-                                <answer type="false" title="Скучное старьё">
-                                    <node title="Значит ищем современный сеттинг?">
-                                        <answer type="true"
-                                                title="Я, пожалуй, хотел бы почитать о времени, в котором сам живу">
-                                            <node title="Боги или люди под мостовыми">
-                                                <node title="Современная мифология">
-                                                    <book author="Нил Гейман" title="Американские боги"/>
-                                                </node>
-                                                <node title="Мир под городом ">
-                                                    <book author="Нил Гейман" title="Задверье"/>
-                                                </node>
-                                            </node>
-                                        </answer>
-                                        <answer type="maybe" title="Но не нужно зацикливаться на мегополисах">
-                                            <book author="Рэй Брэдюери" title="Надвигается беда"/>
-                                        </answer>
-                                        <answer type="false" title="Этот мир слишком угнетает, лучше найдем другой">
-                                            <node title="Без ума от вестернов">
-                                                <answer type="true"
-                                                        title="Люблю пргуляться до салуна в кожаных штанах">
-                                                    <book author="Стивен Кинг" title="Темная башня"/>
-                                                </answer>
-                                                <answer type="false"
-                                                        title="Слишком пыльно и я преотвратно играю в покер">
-                                                    <node title="А к животным хорошо относитесь?">
-                                                        <answer type="true"
-                                                                title="Набил себе тату в виде панды с логотипом WWF">
-                                                            <node title="И о каком питомце мечтаете?">
-                                                                <node title="Еиднорог">
-                                                                    <book author="Питер Сойер Бигл"
-                                                                          title="Последний Единорог"/>
-                                                                </node>
-                                                                <node title="Кролик">
-                                                                    <book author="Ричард Адамс"
-                                                                          title="Обители холмов"/>
-                                                                </node>
-                                                                <node title="Дракон">
-                                                                    <book author="Энн Маккефри"
-                                                                          title="Полет дракона"/>
-                                                                </node>
-                                                            </node>
-                                                        </answer>
-                                                        <answer type="false"
-                                                                title="Моя аллергия воспринимает их враждебно">
-                                                            <node title="Может быть тогда обратимся к альтернативной истории?">
-                                                                <answer type="true"
-                                                                        title="Ревизионизм весьма богоугоден">
-                                                                    <node title="Романтика или сражающиеся волшебники?">
-                                                                        <node title="Романтика">
-                                                                            <book author="Жаклин Кэри"
-                                                                                  title="Наследие Кушила"/>
-                                                                        </node>
-                                                                        <node title="Волшебники">
-                                                                            <book author="Сюзанна Кларк"
-                                                                                  title="Джонатан Стрендж и мистер Норрел"/>
-                                                                        </node>
-                                                                    </node>
-                                                                </answer>
-                                                                <answer type="false"
-                                                                        title="Тройка по истории в аттестате навевает на меня печальные думы">
-                                                                    <node title="Готовы взяться за серии книг?">
-                                                                        <answer type="false"
-                                                                                title="Лучше не будем углубляться в эти дебри">
-                                                                            <node title="С пиратами или без?">
-                                                                                <node title="К чёрту пиратов">
-                                                                                    <book author="Нил Гейман"
-                                                                                          title="Звёздная пыль"/>
-                                                                                </node>
-                                                                                <node title="Йо-хо-хо!">
-                                                                                    <book author="Уильям Голдман"
-                                                                                          title="Принцесса-невеста"/>
-                                                                                </node>
-                                                                            </node>
-                                                                        </answer>
-                                                                        <answer type="true"
-                                                                                title="Два других варианта закончились как-то странно">
-                                                                            <node title="Серии должны быть завершены?">
-                                                                                <answer type="false"
-                                                                                        title="Люблю потравить себе нервы йожиданием">
-                                                                                    <node title="Выбирать возвышенное или низменное?">
-                                                                                        <node title="Низменное">
-                                                                                            <book author="Джордж Мартин"
-                                                                                                  title="Песнь Льда и Пламени"/>
-                                                                                        </node>
-                                                                                        <node title="Возвышенное">
-                                                                                            <book author="Брэндон Сандерсон"
-                                                                                                  title="The Way of Kings"/>
-                                                                                        </node>
-                                                                                    </node>
-                                                                                </answer>
-                                                                                <answer type="true"
-                                                                                        title="Нечего браться за недоделанную работу">
-                                                                                    <node title="Фраза 'Sword and Sorcery' вызывает какие-либо ассоциации?">
-                                                                                        <answer type="false">
-                                                                                            <node title="Может быть ищешь старомодные трилогии">
-                                                                                                <answer type="true"
-                                                                                                        title="Тройка - моё счастливое число">
-                                                                                                    <node title="Итак, про что будем читать?">
-                                                                                                        <node title="Про воров">
-                                                                                                            <book author="Брэндон Сандерсон"
-                                                                                                                  title="Рожденный туманом"/>
-                                                                                                        </node>
-                                                                                                        <node title="Про макгаффин">
-                                                                                                            <book author="Терри Брукс"
-                                                                                                                  title="Шаннара"/>
-                                                                                                        </node>
-                                                                                                        <node title="Про ассасинов">
-                                                                                                            <book author="Робин Хобб"
-                                                                                                                  title="Сага о Видящих"/>
-                                                                                                        </node>
-                                                                                                        <node title="Про магов">
-                                                                                                            <book author="Раймонд Фейст"
-                                                                                                                  title="Учение чародея"/>
-                                                                                                        </node>
-                                                                                                    </node>
-                                                                                                </answer>
-                                                                                                <answer type="false"
-                                                                                                        title="Маловато будет">
-                                                                                                    <node title="Полагаю, пять или шесть книг будет достаточно?">
-                                                                                                        <answer type="true"
-                                                                                                                title="Это займёт меня на какое-то время">
-                                                                                                            <node title="Любите истории об осиротевших деревенских мальчиках">
-                                                                                                                <answer type="false">
-                                                                                                                    <node title="А придётся полюбить">
-                                                                                                                        <book author="Джим Батчер"
-                                                                                                                              title="Кодекс Алеры"/>
-                                                                                                                        <book author="Дэвид Эддингс"
-                                                                                                                              title="Белгариад"/>
-                                                                                                                    </node>
-                                                                                                                </answer>
-                                                                                                            </node>
-                                                                                                        </answer>
-                                                                                                        <answer type="false"
-                                                                                                                title="Я настаиваю как минимум на десять">
-                                                                                                            <node title="Как вам истории о Великом Зле, порабощающим мир и привключенцах против него?">
-                                                                                                                <answer type="true"
-                                                                                                                        title="Добра против Зла в эпическом масштабе, пожайлуста">
-                                                                                                                    <node title="Что же спасёт нас?">
-                                                                                                                        <node title="Искатель Истины">
-                                                                                                                            <book author="Терри Гудкайнд"
-                                                                                                                                  title="Меч Истины"/>
-                                                                                                                        </node>
-                                                                                                                        <node title="Единая Сила">
-                                                                                                                            <book author="Роберт Джордан"
-                                                                                                                                  title="Колесо Времени"/>
-                                                                                                                        </node>
-                                                                                                                    </node>
-                                                                                                                </answer>
-                                                                                                                <answer type="false"
-                                                                                                                        title="А посложнее нельзя ничего придумать">
-                                                                                                                    <node title="Выбирай тщательно, раз уж ты добрался до этого момента">
-                                                                                                                        <node title="Земля в Тенях">
-                                                                                                                            <book author="Роберт Желязны"
-                                                                                                                                  title="Хроники Амбера"/>
-                                                                                                                        </node>
-                                                                                                                        <node title="Запутанное повествование">
-                                                                                                                            <book author="Стивен Эриксон"
-                                                                                                                                  title="Малазийская 'Книга Павших'"/>
-                                                                                                                        </node>
-                                                                                                                    </node>
-                                                                                                                </answer>
-                                                                                                            </node>
-                                                                                                        </answer>
-                                                                                                    </node>
-                                                                                                </answer>
-                                                                                                <answer type="maybe"
-                                                                                                        title="А почему бы не прочесть трилогию трилогий?">
-                                                                                                    <book author="Стивен Дональдсон"
-                                                                                                          title="Томас Ковенант"/>
-                                                                                                </answer>
-                                                                                            </node>
-                                                                                        </answer>
-                                                                                        <answer type="true"
-                                                                                                title="Волшебники и варвары? Что может быть лучше?">
-                                                                                            <node title="Роливик неболсь">
-                                                                                                <answer type="true">
-                                                                                                    <book author="Роберт Сальваторе"
-                                                                                                          title="Темный эльф"/>
-                                                                                                </answer>
-                                                                                                <answer type="false">
-                                                                                                    <node title="Досыпать волшебников или варваров?">
-                                                                                                        <node title="Волшебников">
-                                                                                                            <book author="Майкл Муркок"
-                                                                                                                  title="Сага об Элрике"/>
-                                                                                                        </node>
-                                                                                                        <node title="Варваров">
-                                                                                                            <book author="Роберт Ирвин Говард"
-                                                                                                                  title="Цикл о Конане-варваре"/>
-                                                                                                        </node>
-                                                                                                    </node>
-                                                                                                </answer>
-                                                                                            </node>
-                                                                                        </answer>
-                                                                                    </node>
-                                                                                </answer>
-                                                                            </node>
-                                                                        </answer>
-                                                                        <answer type="maybe"
-                                                                                title="Только не надо трогать монументальные серии">
-                                                                            <node title="Чего изволите?">
-                                                                                <node title="Сатриа над бюрократией">
-                                                                                    <book author="Терри Пратчетт"
-                                                                                          title="Опочтарение"/>
-                                                                                </node>
-                                                                                <node title="Сатриа над религией">
-                                                                                    <book author="Терри Пратчетт"
-                                                                                          title="Мелкие боги"/>
-                                                                                </node>
-                                                                                <node title="Игра слов">
-                                                                                    <book author="Энтони Пирс"
-                                                                                          title="Ксанф"/>
-                                                                                </node>
-                                                                            </node>
-                                                                        </answer>
-                                                                    </node>
-                                                                </answer>
-                                                            </node>
-                                                        </answer>
-                                                    </node>
-                                                </answer>
-                                            </node>
-                                        </answer>
-                                    </node>
-                                </answer>
-                            </node>
-                        </answer>
-                    </node>
-                </answer>
-            </node>
-        </answer>
-    </node>
-    <node title="Научная фантастика">
-        <answer type="true" title="Через терни к звёздам?">
-            <node title="Киберпанк?">
-                <answer type="true" title="High tech. Low life">
-                    <node title="Нуар, самурау или неовикторинский стиль?">
-                        <node title="Смешные шляпы">
-                            <book author="Нил Стивенсон" title="Алмазный Век, или Букварь для благородных девиц"/>
-                        </node>
-                        <node title="Нуар">
-                            <book author="Уильям Гибсон" title="Нейромант"/>
-                        </node>
-                        <node title="Самураи">
-                            <book author="Нил Стивенсон" title="Лавина"/>
-                        </node>
-                    </node>
-                </answer>
-                <answer type="maybe" title="А есть какой-нибудь не слишком гнетущий киберпанк">
-                    <book author="Нил Стивенсон" title="Криптономикон"/>
-                </answer>
-                <answer type="false" title="Хакеры, ИИ, корпорации и киберпространство уже не впечатляют">
-                    <node title="Готов бороздить просторы космоса?">
-                        <answer type="false" title="Не надо пихать в меня ракету, я лучше ещё Землю потопчу">
-                            <node title="Может тогда стоит вообще забраться под землю">
-                                <answer type="true" title="Поверхность мне уже слишком наскучила">
-                                    <node title="Как быть с морями и окенами">
-                                        <node title="Под землю">
-                                            <book author="Жюль Верн" title="Путешествие к центру Земли."/>
-                                        </node>
-                                        <node title="Под воду">
-                                            <book author="Жюль Верн" title="Двадцать тысяч лье под водой."/>
-                                        </node>
-                                    </node>
-                                </answer>
-                                <answer type="false" title="Не надо бросаться из крайности в крайность">
-                                    <node title="Политика, религия или философия">
-                                        <node title="Я мыслю, значит существую">
-                                            <book author="Филип Дик" title="Мечтают ли андроиды об электроовцах?"/>
-                                        </node>
-                                        <node title="Она утонула">
-                                            <node title="И что же именно из политики?">
-                                                <node title="Феменизм">
-                                                    <book author="Урсула Ле Гуин" title="Левая рука Тьмы"/>
-                                                </node>
-                                                <node title="Коммунизм">
-                                                    <book author="Урсула Ле Гуин" title="Обделенные"/>
-                                                </node>
-                                            </node>
-                                        </node>
-                                        <node title="Во имя отца и Сына и Святого Духа">
-                                            <node title="Аминь">
-                                                <node title="Католицизм">
-                                                    <book author="Уолтер М. Миллер-младший"
-                                                          title="Страсти по Лейбовицу"/>
-                                                </node>
-                                                <node title="Гуманизм">
-                                                    <book author="Роберт Хайнлайн" title="Чужак в стране чужой"/>
-                                                </node>
-                                            </node>
-                                        </node>
-                                        <node title="О таком в приличном обществе не говорят. Фантастика - это же о путешествиях или что-то вроде того, да?">
-                                            <node title="Разумеется. Современное или класическое?">
-                                                <node title="Современное">
-                                                    <book author="Конни Уиллис" title="Doomsday Book"/>
-                                                </node>
-                                                <node title="Классическое">
-                                                    <book author="Герберт Уэллс" title="Машина времени"/>
-                                                </node>
-                                                <node title="Ну, я не именно путешествия во времени имел ввиду. Есть какой-нибудь детектив или триллер с флёром фантастики?">
-                                                    <node title="Триллер">
-                                                        <book author="Ларри Нивен. Джерри Пурнель"
-                                                              title="Молот Люцифера"/>
-                                                    </node>
-                                                    <node title="Детектив">
-                                                        <book author="Айзек Азимов" title="Стальные пещеры"/>
-                                                    </node>
-                                                </node>
-                                            </node>
-                                        </node>
-                                    </node>
-                                </answer>
-                            </node>
-                        </answer>
-                        <answer type="maybe" title="Только не будем улетать слишком уж далеко">
-                            <book type="Артур Кларк" title="2001: Космическая Одиссея">
-                                <answer type="false" title="Это всё же очень далеко. Как насчёт Марска?">
-                                    <node title="И чтоже ожидает нас на красной планете">
-                                        <node title="Отрывочные сведения">
-                                            <book author="Рэй Бредбери" title="Марсианские хроники"/>
-                                        </node>
-                                        <node title="Энвайрон-ментализм">
-                                            <book author="Ким Стэнли Робинсон" title="Mars Trilogy"/>
-                                        </node>
-                                        <node title="Перевёрнутый мир">
-                                            <book author="Клайв Стейплз Льюис" title="Космическая трилогия"/>
-                                        </node>
-                                    </node>
-                                </answer>
-                            </book>
-                        </answer>
-                        <answer type="true" title="Звёзды - моя цель">
-                            <node title="Время воевать?">
-                                <answer type="true" title="Пусть милитаризм заполонит всю Вселенную">
-                                    <node title="Кого с кем нужно стравить">
-                                        <node title="Людей и насекомых">
-                                            <book author="Роберт Хайнлайн" title="Звёздный Десант"/>
-                                        </node>
-                                        <node title="Людей и черт знает кого">
-                                            <book author="Орсон Скотт Кард" title="Игра Эндера"/>
-                                        </node>
-                                        <node title="Претендентов на власть">
-                                            <book author="Фрэнк Герберт" title="Хроники Дюны"/>
-                                        </node>
-                                        <node title="Людей и чужих">
-                                            <book author="Джо Холдеман" title="Бесконечная война"/>
-                                        </node>
-                                        <node title="Людей между собой">
-                                            <book author="Роберт Хайнлайн" title="Луна -- суровая хозяйка"/>
-                                        </node>
-                                        <node title="Вообще всех">
-                                            <book author="Джон Скальци" title="Война старика"/>
-                                        </node>
-                                    </node>
-                                </answer>
-                                <answer type="maybe" title="Но сначала стоит как следует разведать галактику">
-                                    <node title="Далёкую-далекую галактику?">
-                                        <answer type="true" title="И желательно 'давным-давно'">
-                                            <book author="Тимоти Зан" title="Траун"/>
-                                        </answer>
-                                        <answer type="false" title="И Намёк был слишком очевиден">
-                                            <node title="С твоим чувством юмора все в порядке?">
-                                                <answer type="true" title="Комедия у меня в крови">
-                                                    <book author="Дуглас Адамс" title="Автостопом по галактике"/>
-                                                </answer>
-                                                <answer type="false" title="Я лишён чувства юмора и знаю об этом">
-                                                    <node title="Это из-за рода деятельности">
-                                                        <answer type="true"
-                                                                title="Я образованный человек со сколнностью к приключениям">
-                                                            <node title="И что же ты изучал?">
-                                                                <node title="Я историк">
-                                                                    <book author="Айзек Азимов" title="Академия"/>
-                                                                </node>
-                                                                <node title="Я инжинер">
-                                                                    <book author="Ларри Нивен" title="Мир-кольца"/>
-                                                                </node>
-                                                                <node title="Я айтишнек">
-                                                                    <book author="Вернор Виндж"
-                                                                          title="Пламя над бездной"/>
-                                                                </node>
-                                                            </node>
-                                                        </answer>
-                                                    </node>
-                                                    <answer type="false" title="Просто люблю все патетическое">
-                                                        <book author="Лоис Макмастер Буджолд" title="Барраярский цикл">
-                                                            <answer type="false"
-                                                                    title="Весь цикл? Свободного времени у меня всё же меньше, чем вечность">
-                                                                <node title="Значит, остались короткие истории. О Роботах или марсианах?">
-                                                                    <node title="О роботах">
-                                                                        <book author="Айзек Азимов" title="Я, робот."/>
-                                                                    </node>
-                                                                    <node title="О марсианах">
-                                                                        <book author="Рей Брэдбери"
-                                                                              title="Человек в картинках"/>
-                                                                    </node>
+                                    </answer>
+                                    <answer type="maybe" title="Но не нужно зацикливаться на мегополисах">
+                                        <book author="Рэй Брэдюери" title="Надвигается беда"/>
+                                    </answer>
+                                    <answer type="false" title="Этот мир слишком угнетает, лучше найдем другой">
+                                        <node title="Без ума от вестернов">
+                                            <answer type="true"
+                                                    title="Люблю пргуляться до салуна в кожаных штанах">
+                                                <book author="Стивен Кинг" title="Темная башня"/>
+                                            </answer>
+                                            <answer type="false"
+                                                    title="Слишком пыльно и я преотвратно играю в покер">
+                                                <node title="А к животным хорошо относитесь?">
+                                                    <answer type="true"
+                                                            title="Набил себе тату в виде панды с логотипом WWF">
+                                                        <node title="И о каком питомце мечтаете?">
+                                                            <answer title="Еиднорог">
+                                                                <book author="Питер Сойер Бигл"
+                                                                      title="Последний Единорог"/>
+                                                            </answer>
+                                                            <answer title="Кролик">
+                                                                <book author="Ричард Адамс"
+                                                                      title="Обители холмов"/>
+                                                            </answer>
+                                                            <answer title="Дракон">
+                                                                <book author="Энн Маккефри"
+                                                                      title="Полет дракона"/>
+                                                            </answer>
+                                                        </node>
+                                                    </answer>
+                                                    <answer type="false"
+                                                            title="Моя аллергия воспринимает их враждебно">
+                                                        <node title="Может быть тогда обратимся к альтернативной истории?">
+                                                            <answer type="true"
+                                                                    title="Ревизионизм весьма богоугоден">
+                                                                <node title="Романтика или сражающиеся волшебники?">
+                                                                    <answer title="Романтика">
+                                                                        <book author="Жаклин Кэри"
+                                                                              title="Наследие Кушила"/>
+                                                                    </answer>
+                                                                    <answer title="Волшебники">
+                                                                        <book author="Сюзанна Кларк"
+                                                                              title="Джонатан Стрендж и мистер Норрел"/>
+                                                                    </answer>
                                                                 </node>
                                                             </answer>
-                                                        </book>
+                                                            <answer type="false"
+                                                                    title="Тройка по истории в аттестате навевает на меня печальные думы">
+                                                                <node title="Готовы взяться за серии книг?">
+                                                                    <answer type="false"
+                                                                            title="Лучше не будем углубляться в эти дебри">
+                                                                        <node title="С пиратами или без?">
+                                                                            <answer title="К чёрту пиратов">
+                                                                                <book author="Нил Гейман"
+                                                                                      title="Звёздная пыль"/>
+                                                                            </answer>
+                                                                            <answer title="Йо-хо-хо!">
+                                                                                <book author="Уильям Голдман"
+                                                                                      title="Принцесса-невеста"/>
+                                                                            </answer>
+                                                                        </node>
+                                                                    </answer>
+                                                                    <answer type="true"
+                                                                            title="Два других варианта закончились как-то странно">
+                                                                        <node title="Серии должны быть завершены?">
+                                                                            <answer type="false"
+                                                                                    title="Люблю потравить себе нервы ожиданием">
+                                                                                <node title="Выбирать возвышенное или низменное?">
+                                                                                    <answer title="Низменное">
+                                                                                        <book author="Джордж Мартин"
+                                                                                              title="Песнь Льда и Пламени"/>
+                                                                                    </answer>
+                                                                                    <answer title="Возвышенное">
+                                                                                        <book author="Брэндон Сандерсон"
+                                                                                              title="The Way of Kings"/>
+                                                                                    </answer>
+                                                                                </node>
+                                                                            </answer>
+                                                                            <answer type="true"
+                                                                                    title="Нечего браться за недоделанную работу">
+                                                                                <node title="Фраза 'Sword and Sorcery' вызывает какие-либо ассоциации?">
+                                                                                    <answer type="false">
+                                                                                        <node title="Может быть ищешь старомодные трилогии">
+                                                                                            <answer type="true"
+                                                                                                    title="Тройка - моё счастливое число">
+                                                                                                <node title="Итак, про что будем читать?">
+                                                                                                    <answer title="Про воров">
+                                                                                                        <book author="Брэндон Сандерсон"
+                                                                                                              title="Рожденный туманом"/>
+                                                                                                    </answer>
+                                                                                                    <answer title="Про макгаффин">
+                                                                                                        <book author="Терри Брукс"
+                                                                                                              title="Шаннара"/>
+                                                                                                    </answer>
+                                                                                                    <answer title="Про ассасинов">
+                                                                                                        <book author="Робин Хобб"
+                                                                                                              title="Сага о Видящих"/>
+                                                                                                    </answer>
+                                                                                                    <answer title="Про магов">
+                                                                                                        <book author="Раймонд Фейст"
+                                                                                                              title="Учение чародея"/>
+                                                                                                    </answer>
+                                                                                                </node>
+                                                                                            </answer>
+                                                                                            <answer type="false"
+                                                                                                    title="Маловато будет">
+                                                                                                <node title="Полагаю, пять или шесть книг будет достаточно?">
+                                                                                                    <answer type="true"
+                                                                                                            title="Это займёт меня на какое-то время">
+                                                                                                        <node title="Любите истории об осиротевших деревенских мальчиках">
+                                                                                                            <answer type="false">
+                                                                                                                <node title="А придётся полюбить">
+                                                                                                                    <book author="Джим Батчер"
+                                                                                                                          title="Кодекс Алеры"/>
+                                                                                                                    <book author="Дэвид Эддингс"
+                                                                                                                          title="Белгариад"/>
+                                                                                                                </node>
+                                                                                                            </answer>
+                                                                                                        </node>
+                                                                                                    </answer>
+                                                                                                    <answer type="false"
+                                                                                                            title="Я настаиваю как минимум на десять">
+                                                                                                        <node title="Как вам истории о Великом Зле, порабощающим мир и привключенцах против него?">
+                                                                                                            <answer type="true"
+                                                                                                                    title="Добра против Зла в эпическом масштабе, пожайлуста">
+                                                                                                                <node title="Что же спасёт нас?">
+                                                                                                                    <answer title="Искатель Истины">
+                                                                                                                        <book author="Терри Гудкайнд"
+                                                                                                                              title="Меч Истины"/>
+                                                                                                                    </answer>
+                                                                                                                    <answer title="Единая Сила">
+                                                                                                                        <book author="Роберт Джордан"
+                                                                                                                              title="Колесо Времени"/>
+                                                                                                                    </answer>
+                                                                                                                </node>
+                                                                                                            </answer>
+                                                                                                            <answer type="false"
+                                                                                                                    title="А посложнее нельзя ничего придумать">
+                                                                                                                <node title="Выбирай тщательно, раз уж ты добрался до этого момента">
+                                                                                                                    <answer title="Земля в Тенях">
+                                                                                                                        <book author="Роберт Желязны"
+                                                                                                                              title="Хроники Амбера"/>
+                                                                                                                    </answer>
+                                                                                                                    <answer title="Запутанное повествование">
+                                                                                                                        <book author="Стивен Эриксон"
+                                                                                                                              title="Малазийская 'Книга Павших'"/>
+                                                                                                                    </answer>
+                                                                                                                </node>
+                                                                                                            </answer>
+                                                                                                        </node>
+                                                                                                    </answer>
+                                                                                                </node>
+                                                                                            </answer>
+                                                                                            <answer type="maybe"
+                                                                                                    title="А почему бы не прочесть трилогию трилогий?">
+                                                                                                <book author="Стивен Дональдсон"
+                                                                                                      title="Томас Ковенант"/>
+                                                                                            </answer>
+                                                                                        </node>
+                                                                                    </answer>
+                                                                                    <answer type="true"
+                                                                                            title="Волшебники и варвары? Что может быть лучше?">
+                                                                                        <node title="Роливик неболсь">
+                                                                                            <answer type="true">
+                                                                                                <book author="Роберт Сальваторе"
+                                                                                                      title="Темный эльф"/>
+                                                                                            </answer>
+                                                                                            <answer type="false">
+                                                                                                <node title="Досыпать волшебников или варваров?">
+                                                                                                    <answer title="Волшебников">
+                                                                                                        <book author="Майкл Муркок"
+                                                                                                              title="Сага об Элрике"/>
+                                                                                                    </answer>
+                                                                                                    <answer title="Варваров">
+                                                                                                        <book author="Роберт Ирвин Говард"
+                                                                                                              title="Цикл о Конане-варваре"/>
+                                                                                                    </answer>
+                                                                                                </node>
+                                                                                            </answer>
+                                                                                        </node>
+                                                                                    </answer>
+                                                                                </node>
+                                                                            </answer>
+                                                                        </node>
+                                                                    </answer>
+                                                                    <answer type="maybe"
+                                                                            title="Только не надо трогать монументальные серии">
+                                                                        <node title="Чего изволите?">
+                                                                            <answer title="Сатриа над бюрократией">
+                                                                                <book author="Терри Пратчетт"
+                                                                                      title="Опочтарение"/>
+                                                                            </answer>
+                                                                            <answer title="Сатриа над религией">
+                                                                                <book author="Терри Пратчетт"
+                                                                                      title="Мелкие боги"/>
+                                                                            </answer>
+                                                                            <answer title="Игра слов">
+                                                                                <book author="Энтони Пирс"
+                                                                                      title="Ксанф"/>
+                                                                            </answer>
+                                                                        </node>
+                                                                    </answer>
+                                                                </node>
+                                                            </answer>
+                                                        </node>
                                                     </answer>
+                                                </node>
+                                            </answer>
+                                        </node>
+                                    </answer>
+                                </node>
+                            </answer>
+                        </node>
+                    </answer>
+                </node>
+            </answer>
+        </node>
+    </answer>
+    <answer type="true" title="Научная фантастика. Через терни к звёздам">
+        <node title="Киберпанк?">
+            <answer type="true" title="High tech. Low life">
+                <node title="Нуар, самурау или неовикторинский стиль?">
+                    <answer title="Смешные шляпы">
+                        <book author="Нил Стивенсон" title="Алмазный Век, или Букварь для благородных девиц"/>
+                    </answer>
+                    <answer title="Нуар">
+                        <book author="Уильям Гибсон" title="Нейромант"/>
+                    </answer>
+                    <answer title="Самураи">
+                        <book author="Нил Стивенсон" title="Лавина"/>
+                    </answer>
+                </node>
+            </answer>
+            <answer type="maybe" title="А есть какой-нибудь не слишком гнетущий киберпанк">
+                <book author="Нил Стивенсон" title="Криптономикон"/>
+            </answer>
+            <answer type="false" title="Хакеры, ИИ, корпорации и киберпространство уже не впечатляют">
+                <node title="Готов бороздить просторы космоса?">
+                    <answer type="false" title="Не надо пихать в меня ракету, я лучше ещё Землю потопчу">
+                        <node title="Может тогда стоит вообще забраться под землю">
+                            <answer type="true" title="Поверхность мне уже слишком наскучила">
+                                <node title="Как быть с морями и окенами">
+                                    <answer title="Под землю">
+                                        <book author="Жюль Верн" title="Путешествие к центру Земли."/>
+                                    </answer>
+                                    <answer title="Под воду">
+                                        <book author="Жюль Верн" title="Двадцать тысяч лье под водой."/>
+                                    </answer>
+                                </node>
+                            </answer>
+                            <answer type="false" title="Не надо бросаться из крайности в крайность">
+                                <node title="Политика, религия или философия">
+                                    <answer title="Я мыслю, значит существую">
+                                        <book author="Филип Дик" title="Мечтают ли андроиды об электроовцах?"/>
+                                    </answer>
+                                    <answer title="Она утонула">
+                                        <node title="И что же именно из политики?">
+                                            <answer title="Феменизм">
+                                                <book author="Урсула Ле Гуин" title="Левая рука Тьмы"/>
+                                            </answer>
+                                            <answer title="Коммунизм">
+                                                <book author="Урсула Ле Гуин" title="Обделенные"/>
+                                            </answer>
+                                        </node>
+                                    </answer>
+                                    <answer title="Во имя отца и Сына и Святого Духа">
+                                        <node title="Аминь">
+                                            <answer title="Католицизм">
+                                                <book author="Уолтер М. Миллер-младший"
+                                                      title="Страсти по Лейбовицу"/>
+                                            </answer>
+                                            <answer title="Гуманизм">
+                                                <book author="Роберт Хайнлайн" title="Чужак в стране чужой"/>
+                                            </answer>
+                                        </node>
+                                    </answer>
+                                    <answer title="О таком в приличном обществе не говорят. Фантастика - это же о путешествиях или что-то вроде того, да?">
+                                        <node title="Разумеется. Современное или класическое?">
+                                            <answer title="Современное">
+                                                <book author="Конни Уиллис" title="Doomsday Book"/>
+                                            </answer>
+                                            <answer title="Классическое">
+                                                <book author="Герберт Уэллс" title="Машина времени"/>
+                                            </answer>
+                                            <answer type="false" title="Ну, я не именно путешествия во времени имел ввиду. Есть какой-нибудь детектив или триллер с флёром фантастики?">
+                                                <answer title="Триллер">
+                                                    <book author="Ларри Нивен. Джерри Пурнель"
+                                                          title="Молот Люцифера"/>
                                                 </answer>
-                                                <answer type="maybe"
-                                                        titie="Могу пару раз усмехнутся во время пауз между взрывами">
-                                                    <book author="Иэн М. Бэнкс" title="Культура"/>
+                                                <answer title="Детектив">
+                                                    <book author="Айзек Азимов" title="Стальные пещеры"/>
                                                 </answer>
-                                            </node>
-                                        </answer>
-                                    </node>
-                                </answer>
-                                <answer type="false" title="Но меня интересуют возможные стенарии 'первого контакта'">
-                                    <node title="Каких инопланетян мы встретим?">
-                                        <node title="Враждебных">
-                                            <book author="Герберт Уэллс" title="Война миров"/>
+                                            </answer>
                                         </node>
-                                        <node title="Несуществующих">
-                                            <book author="Артур Кларк" title="Свидание с Рамой"/>
+                                    </answer>
+                                </node>
+                            </answer>
+                        </node>
+                    </answer>
+                    <answer type="maybe" title="Только не будем улетать слишком уж далеко">
+                        <book type="Артур Кларк" title="2001: Космическая Одиссея">
+                            <answer type="false" title="Это всё же очень далеко. Как насчёт Марска?">
+                                <node title="И чтоже ожидает нас на красной планете">
+                                    <answer title="Отрывочные сведения">
+                                        <book author="Рэй Бредбери" title="Марсианские хроники"/>
+                                    </answer>
+                                    <answer title="Энвайрон-ментализм">
+                                        <book author="Ким Стэнли Робинсон" title="Mars Trilogy"/>
+                                    </answer>
+                                    <answer title="Перевёрнутый мир">
+                                        <book author="Клайв Стейплз Льюис" title="Космическая трилогия"/>
+                                    </answer>
+                                </node>
+                            </answer>
+                        </book>
+                    </answer>
+                    <answer type="true" title="Звёзды - моя цель">
+                        <node title="Время воевать?">
+                            <answer type="true" title="Пусть милитаризм заполонит всю Вселенную">
+                                <node title="Кого с кем нужно стравить">
+                                    <answer title="Людей и насекомых">
+                                        <book author="Роберт Хайнлайн" title="Звёздный Десант"/>
+                                    </answer>
+                                    <answer title="Людей и черт знает кого">
+                                        <book author="Орсон Скотт Кард" title="Игра Эндера"/>
+                                    </answer>
+                                    <answer title="Претендентов на власть">
+                                        <book author="Фрэнк Герберт" title="Хроники Дюны"/>
+                                    </answer>
+                                    <answer title="Людей и чужих">
+                                        <book author="Джо Холдеман" title="Бесконечная война"/>
+                                    </answer>
+                                    <answer title="Людей между собой">
+                                        <book author="Роберт Хайнлайн" title="Луна -- суровая хозяйка"/>
+                                    </answer>
+                                    <answer title="Вообще всех">
+                                        <book author="Джон Скальци" title="Война старика"/>
+                                    </answer>
+                                </node>
+                            </answer>
+                            <answer type="maybe" title="Но сначала стоит как следует разведать галактику">
+                                <node title="Далёкую-далекую галактику?">
+                                    <answer type="true" title="И желательно 'давным-давно'">
+                                        <book author="Тимоти Зан" title="Траун"/>
+                                    </answer>
+                                    <answer type="false" title="И Намёк был слишком очевиден">
+                                        <node title="С твоим чувством юмора все в порядке?">
+                                            <answer type="true" title="Комедия у меня в крови">
+                                                <book author="Дуглас Адамс" title="Автостопом по галактике"/>
+                                            </answer>
+                                            <answer type="false" title="Я лишён чувства юмора и знаю об этом">
+                                                <node title="Это из-за рода деятельности">
+                                                    <answer type="true"
+                                                            title="Я образованный человек со сколнностью к приключениям">
+                                                        <node title="И что же ты изучал?">
+                                                            <answer title="Я историк">
+                                                                <book author="Айзек Азимов" title="Академия"/>
+                                                            </answer>
+                                                            <answer title="Я инжинер">
+                                                                <book author="Ларри Нивен" title="Мир-кольца"/>
+                                                            </answer>
+                                                            <answer title="Я айтишнек">
+                                                                <book author="Вернор Виндж"
+                                                                      title="Пламя над бездной"/>
+                                                            </answer>
+                                                        </node>
+                                                    </answer>
+                                                </node>
+                                                <answer type="false" title="Просто люблю все патетическое">
+                                                    <book author="Лоис Макмастер Буджолд" title="Барраярский цикл">
+                                                        <answer type="false"
+                                                                title="Весь цикл? Свободного времени у меня всё же меньше, чем вечность">
+                                                            <node title="Значит, остались короткие истории. О Роботах или марсианах?">
+                                                                <answer title="О роботах">
+                                                                    <book author="Айзек Азимов" title="Я, робот."/>
+                                                                </answer>
+                                                                <answer title="О марсианах">
+                                                                    <book author="Рей Брэдбери"
+                                                                          title="Человек в картинках"/>
+                                                                </answer>
+                                                            </node>
+                                                        </answer>
+                                                    </book>
+                                                </answer>
+                                            </answer>
+                                            <answer type="maybe"
+                                                    titie="Могу пару раз усмехнутся во время пауз между взрывами">
+                                                <book author="Иэн М. Бэнкс" title="Культура"/>
+                                            </answer>
                                         </node>
-                                        <node title="Мирных">
-                                            <book author="Артур Кларк" title="Конец детства"/>
-                                        </node>
-                                        <node title="Слишком плодовитых">
-                                            <book author="Ларри Нивен, Джерри Пурнелл"
-                                                  title="Мошка в зенице Господней"/>
-                                        </node>
-                                        <node title="Заботливых">
-                                            <book author="Карл Саган" title="Контакт"/>
-                                        </node>
-                                    </node>
-                                </answer>
-                            </node>
-                        </answer>
-                    </node>
-                </answer>
-            </node>
-        </answer>
-    </node>
+                                    </answer>
+                                </node>
+                            </answer>
+                            <answer type="false" title="Но меня интересуют возможные стенарии 'первого контакта'">
+                                <node title="Каких инопланетян мы встретим?">
+                                    <answer title="Враждебных">
+                                        <book author="Герберт Уэллс" title="Война миров"/>
+                                    </answer>
+                                    <answer title="Несуществующих">
+                                        <book author="Артур Кларк" title="Свидание с Рамой"/>
+                                    </answer>
+                                    <answer title="Мирных">
+                                        <book author="Артур Кларк" title="Конец детства"/>
+                                    </answer>
+                                    <answer title="Слишком плодовитых">
+                                        <book author="Ларри Нивен, Джерри Пурнелл"
+                                              title="Мошка в зенице Господней"/>
+                                    </answer>
+                                    <answer title="Заботливых">
+                                        <book author="Карл Саган" title="Контакт"/>
+                                    </answer>
+                                </node>
+                            </answer>
+                        </node>
+                    </answer>
+                </node>
+            </answer>
+        </node>
+    </answer>
     <answer type="false" title="Я бы вообще предпочёл не появляться у полок с такими книгами">
         <node title="Как скажешь. Ищем трагедию?">
             <answer type="true" title="Имеется срочная необходимость всплакнуть?">
                 <node title="Любовь или преодоление непсправедливости?">
-                    <node title="Я на стороне обделённых">
+                    <answer title="Я на стороне обделённых">
                         <book author="Даниел Киз" title="Цветы для Элджерона"/>
-                    </node>
-                    <node title="Любовь">
+                    </answer>
+                    <answer title="Любовь">
                         <node title="Смешать любовь с небольшими путешествиями во времени?">
                             <answer type="false">
-                                <node title="Таки да">
+                                <answer title="Таки да">
                                     <book author="Одри Ниффенеггер" title="Жена путешествинника во времени"/>
                                     <book author="Диана Гэблдон" title="Чужестранка"/>
-                                </node>
+                                </answer>
                             </answer>
                         </node>
-                    </node>
+                    </answer>
                 </node>
             </answer>
             <answer type="false" title="Соплей мне достаточно и после просмтора 'Дневника памяти'">
@@ -503,17 +499,17 @@
                         <node title="К месту ли будут антиутопии?">
                             <answer type="true" title="Пусть станет так плохо, что даже хорошо">
                                 <node title="Тоталиторизм или мир, сошедший с ума?">
-                                    <node title="Виват, диктатура!">
+                                    <answer title="Виват, диктатура!">
                                         <node title="Какая именно?">
-                                            <node title="Религиозная">
+                                            <answer title="Религиозная">
                                                 <book author="Маргарет Этвуд" title="Рассказ служанки"/>
-                                            </node>
-                                            <node title="Военная">
+                                            </answer>
+                                            <answer title="Военная">
                                                 <book author="Джордж Оруэлл" title="1984"/>
-                                            </node>
+                                            </answer>
                                         </node>
-                                    </node>
-                                    <node title="Внутреннее безумие">
+                                    </answer>
+                                    <answer title="Внутреннее безумие">
                                         <node title="Интересно, куда катится это ваше 'общество потребления'?">
                                             <answer type="false">
                                                 <answer type="false">
@@ -532,13 +528,13 @@
                                                                 </answer>
                                                             </node>
                                                         </answer>
-                                                        <node title="Кому нужные книги?">
+                                                        <answer title="Кому нужные книги?">
                                                             <book author="Рэй Брэдбери" title="451° по Фаренгейту"/>
-                                                        </node>
-                                                        <node title="Кому нужна свобода воли?">
+                                                        </answer>
+                                                        <answer title="Кому нужна свобода воли?">
                                                             <book author="Энтони Бёрджесс"
                                                                   title="Заводной апельсин"/>
-                                                        </node>
+                                                        </answer>
                                                     </node>
                                                 </answer>
                                             </answer>
@@ -546,11 +542,13 @@
                                                 <book author="Олдос Хаксли" title="О дивный новый мир"/>
                                             </answer>
                                         </node>
-                                    </node>
+                                    </answer>
                                 </node>
                             </answer>
                             <answer type="false" title="Я и так живу в одной из них">
-                                <book author="Джордж Оруэлл" title="Скотный двор"/>
+                                <node title="Что ж, тогда попробуй замаскировать обыденность">
+                                    <book author="Джордж Оруэлл" title="Скотный двор"/>
+                                </node>
                             </answer>
                         </node>
                     </answer>
@@ -565,12 +563,12 @@
                     <answer type="false" title="Предоставим землю зомби, а сами обратимся к классике">
                         <book author="Мэри Шелли" title="Франкенштейн, или Современный Прометей"/>
                     </answer>
-                    <node title="Да начнётся битва!">
+                    <answer title="Да начнётся битва!">
                         <book author="Макс Брукс" title="Мировая Война Z"/>
-                    </node>
-                    <node title="Одиночество и зомби">
+                    </answer>
+                    <answer title="Одиночество и зомби">
                         <book author="Ричард Матесон" title="Я - легенда "/>
-                    </node>
+                    </answer>
                 </node>
             </answer>
             <answer type="true">
@@ -580,34 +578,34 @@
     </answer>
     <answer type="false" title="Читаю только книги с картинками">
         <node title="Постмодернистские супергерои или мучающийся призрак?">
-            <node title="Супергерои">
+            <answer title="Супергерои">
                 <book author="Алан Мур" title="Хранители"/>
-            </node>
-            <node title="Повелитель снов">
+            </answer>
+            <answer title="Повелитель снов">
                 <book author="Нил Гейман" title="Песочный человек"/>
-            </node>
+            </answer>
         </node>
     </answer>
     <answer type="false" title="Того и другого. И можно без хлеба!">
         <node title="А в прошлом или будующем">
-            <node title="В будующем">
+            <answer title="В будующем">
                 <node title="Вы гик от математики?">
                     <answer type="true">
                         <book author="Нил Стивенсон" title="Анафем"/>
                     </answer>
                     <answer type="false">
                         <node title="Что звучит интереснее - умирающие солнце или демон из шипов и лезвий">
-                            <node title="Умирающие солнце">
+                            <answer title="Умирающие солнце">
                                 <book author="Джин Вулф" title="Книга Нового Солнца"/>
-                            </node>
-                            <node title="Шрайк! Шрайк!">
+                            </answer>
+                            <answer title="Шрайк! Шрайк!">
                                 <book author="Дэн Симмонс" title="Гиперион"/>
-                            </node>
+                            </answer>
                         </node>
                     </answer>
                 </node>
-            </node>
-            <node title="В прошлом">
+            </answer>
+            <answer title="В прошлом">
                 <node title="Нравятся монстры?">
                     <answer type="true">
                         <book author="Чайна Мьевиль" title="Вокзал потерянных снов"/>
@@ -616,7 +614,7 @@
                         <book author="Джаспер Ффорде" title="Дело Джен, или Эйра немилосердия"/>
                     </answer>
                 </node>
-            </node>
+            </answer>
         </node>
     </answer>
-</root>
+</node>
