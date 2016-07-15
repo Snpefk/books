@@ -1,0 +1,17 @@
+#content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#book {
+    text-align: center;
+    display: none;
+}
+img {
+    height: 50%;
+    width: 42%;
+
+}
+body {
+    background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-327871.jpg');
+}

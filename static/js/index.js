@@ -57,14 +57,15 @@ $(document).ready(function () {
         for (var i = 0; i < children.length; ++i) {
             var title = children[i].getAttribute('title');
             var author = children[i].getAttribute('author');
-            var img = children[i].getAttribute('img');
+            var img = document.createElement('img');
             var h3 = document.createElement('h3');
             var h2 = document.createElement('h2');
 
             h3.innerHTML = author;
             h2.innerHTML = title;
+            img.setAttribute('src', 'static/books/' + author + ' ' + title + '.jpg');
 
-            $book.css('display', 'block').append(h2).append(h3);
+            $book.css('display', 'block').append(img).append(h2).append(h3);
         }
     }
 
