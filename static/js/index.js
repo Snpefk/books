@@ -4,13 +4,16 @@ $(document).ready(function () {
         $content = $('#content'),
         $book = $('#book');
 
-    $.get(url, function (data) {
-        var xml = $.parseXML(data);
-        root = xml.children[0];
+    function initialize() {
+        $.get(url, function (data) {
+            var xml = $.parseXML(data);
+            root = xml.children[0];
+            clear();
 
-        printNode(root);
-        printAnswers(root.children);
-    });
+            printNode(root);
+            printAnswers(root.children);
+        });
+    }
 
     function clear() {
         $content.html('');
@@ -31,10 +34,8 @@ $(document).ready(function () {
     }
 
     function printNode(children) {
-        // for (var i = 0; i < children.length; i++) {
         var title = children.getAttribute('title');
         $('#menu').html(title);
-        // }
     }
 
     function printAnswers(children) {
@@ -44,8 +45,10 @@ $(document).ready(function () {
             var color = "btn " + getAnswerColor(type);
             var button = document.createElement('button');
 
+            if (title == null) title = type == 'true' ? 'Да' : 'Нет';
+
             button.className = color + ' btn-block';
-            button.innerHTML = title ? title : ' '; //проверка, если есть ли текст в блоке
+            button.innerHTML = title;
             button.id = i;
             button.setAttribute('type', 'button');
 
@@ -60,12 +63,22 @@ $(document).ready(function () {
             var img = document.createElement('img');
             var h3 = document.createElement('h3');
             var h2 = document.createElement('h2');
+            var buttonRefresh = document.createElement('a');
+            var updateSpan = document.createElement('span');
 
             h3.innerHTML = author;
             h2.innerHTML = title;
             img.setAttribute('src', 'static/books/' + author + ' ' + title + '.jpg');
 
-            $book.css('display', 'block').append(img).append(h2).append(h3);
+            updateSpan.className = 'glyphicon glyphicon-refresh';
+
+            buttonRefresh.innerHTML = 'Заново ';
+            buttonRefresh.className = 'btn btn-primary';
+            buttonRefresh.onclick = initialize;
+            // buttonRefresh.setAttribute('type', 'button');
+            buttonRefresh.appendChild(updateSpan);
+
+            $book.css('display', 'block').append(img).append(h2).append(h3).append(buttonRefresh);
         }
     }
 
@@ -87,6 +100,8 @@ $(document).ready(function () {
             }
             printAnswers(root.children);
         }
-    })
+    });
+
+    initialize();
 });
 

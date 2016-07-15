@@ -7,11 +7,22 @@
     text-align: center;
     display: none;
 }
+
 img {
     height: 50%;
     width: 42%;
 
 }
+
 body {
     background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-327871.jpg');
+}
+
+.container {
+    background: rgba(46, 49, 54, 0.5);
+    color: #fff;
+    padding-bottom: 15px;
+    border-bottom: 2px solid transparent;
+    border-radius: 10px 0px;
+
 }

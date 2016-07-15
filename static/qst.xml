@@ -46,7 +46,7 @@
                                         </node>
                                     </answer>
                                     <answer type="maybe" title="Но не нужно зацикливаться на мегополисах">
-                                        <book author="Рэй Брэдюери" title="Надвигается беда"/>
+                                        <book author="Рэй Брэдбери" title="Надвигается беда"/>
                                     </answer>
                                     <answer type="false" title="Этот мир слишком угнетает, лучше найдем другой">
                                         <node title="Без ума от вестернов">
