@@ -12,6 +12,7 @@ $(document).ready(function () {
 
             printNode(root);
             printAnswers(root.children);
+            changeBackground(root.getAttribute('title'))
         });
     }
 
@@ -31,6 +32,19 @@ $(document).ready(function () {
             default:
                 return 'btn-default';
         }
+    }
+
+    function normalizeString(string) {
+        return string.replace(/([<>:"/\|?*]+)/ig, '');
+    }
+
+    function changeBackground(title) {
+        var url = 'url("http://localhost:63342/books/static/background/' + normalizeString(title) + '.jpg")';
+        
+        $('body')
+            .css({"background-image": url})
+            .animate({'opacity': 1});
+        console.log(url);
     }
 
     function printNode(children) {
@@ -68,7 +82,7 @@ $(document).ready(function () {
 
             h3.innerHTML = author;
             h2.innerHTML = title;
-            img.setAttribute('src', 'static/books/' + author + ' ' + title + '.jpg');
+            img.setAttribute('src', 'static/books/' + normalizeString(author) + ' ' + normalizeString(title) + '.jpg');
 
             updateSpan.className = 'glyphicon glyphicon-refresh';
 
@@ -85,6 +99,9 @@ $(document).ready(function () {
     $(document).on('click', 'button', function (e) {
         var id = $(this).attr('id');
         root = root.children[id];
+
+        // if (root.children[0].tagName != 'book' && root.getAttribute('background')) changeBackground(root.getAttribute('title'));
+        if (root.children[0].tagName != 'book') changeBackground(root.getAttribute('title'));
 
         clear();
         if (root.children.length > 0) {

@@ -1,6 +1,6 @@
 <node title="Итак, с чего начнём?">
-    <answer type="true" title="Фэнтези. Хоть сейчас в страну эльфов">
-        <node title="Скучаете по некогда прочитанному Гарри Поттеру">
+    <answer type="true" title="Фэнтези. Хоть сейчас в страну эльфов" background="true">
+        <node title="Скучаете по некогда прочитанному Гарри Поттеру?">
             <answer type="true" title="Дайте больше нежных вьюнешей в школах магии">
                 <book author="Патрик Ротфусс" title="Хроника Убийцы Короля"/>
             </answer>
@@ -19,8 +19,8 @@
                     </answer>
                     <answer type="false" title="Кто неофит, ты неофит">
                         <node title="Любите легенды о короле Артуре?">
-                            <answer type="true" title="У меня даже есть 'Меч в камне' на DVD и видеокассете">
-                                <node title="И какой персонаж больше всего приглянулся">
+                            <answer type="true" title="У меня даже есть 'Меч в камне' на DVD и видеокассете" background="true">
+                                <node title="И какой персонаж больше всего приглянулся?">
                                     <answer title="Артур">
                                         <book author="Теренс Хэнбери Уайт" title="Король былого и грядущего"/>
                                     </answer>
@@ -32,10 +32,10 @@
                                     </answer>
                                 </node>
                             </answer>
-                            <answer type="false" title="Скучное старьё">
+                            <answer type="false" title="Скучное старьё" >
                                 <node title="Значит ищем современный сеттинг?">
                                     <answer type="true"
-                                            title="Я, пожалуй, хотел бы почитать о времени, в котором сам живу">
+                                            title="Я, пожалуй, хотел бы почитать о времени, в котором сам живу" background="true">
                                         <node title="Боги или люди под мостовыми">
                                             <answer title="Современная мифология">
                                                 <book author="Нил Гейман" title="Американские боги"/>
@@ -48,19 +48,19 @@
                                     <answer type="maybe" title="Но не нужно зацикливаться на мегополисах">
                                         <book author="Рэй Брэдбери" title="Надвигается беда"/>
                                     </answer>
-                                    <answer type="false" title="Этот мир слишком угнетает, лучше найдем другой">
+                                    <answer type="false" title="Этот мир слишком угнетает, лучше найдем другой" background="true">
                                         <node title="Без ума от вестернов">
                                             <answer type="true"
-                                                    title="Люблю пргуляться до салуна в кожаных штанах">
+                                                    title="Люблю прогуляться до салуна в кожаных штанах" >
                                                 <book author="Стивен Кинг" title="Темная башня"/>
                                             </answer>
                                             <answer type="false"
                                                     title="Слишком пыльно и я преотвратно играю в покер">
                                                 <node title="А к животным хорошо относитесь?">
                                                     <answer type="true"
-                                                            title="Набил себе тату в виде панды с логотипом WWF">
+                                                            title="Набил себе тату в виде панды с логотипом WWF" background="true">
                                                         <node title="И о каком питомце мечтаете?">
-                                                            <answer title="Еиднорог">
+                                                            <answer title="Единорог">
                                                                 <book author="Питер Сойер Бигл"
                                                                       title="Последний Единорог"/>
                                                             </answer>
@@ -262,10 +262,10 @@
             </answer>
         </node>
     </answer>
-    <answer type="true" title="Научная фантастика. Через терни к звёздам">
+    <answer type="true" title="Научная фантастика. Через терни к звёздам" background="true">
         <node title="Киберпанк?">
             <answer type="true" title="High tech. Low life">
-                <node title="Нуар, самурау или неовикторинский стиль?">
+                <node title="Нуар, самураи или неовикторинский стиль?">
                     <answer title="Смешные шляпы">
                         <book author="Нил Стивенсон" title="Алмазный Век, или Букварь для благородных девиц"/>
                     </answer>
@@ -463,7 +463,7 @@
             </answer>
         </node>
     </answer>
-    <answer type="false" title="Я бы вообще предпочёл не появляться у полок с такими книгами">
+    <answer type="false" title="Я бы вообще предпочёл не появляться у полок с такими книгами" background="true">
         <node title="Как скажешь. Ищем трагедию?">
             <answer type="true" title="Имеется срочная необходимость всплакнуть?">
                 <node title="Любовь или преодоление непсправедливости?">
@@ -556,7 +556,7 @@
             </answer>
         </node>
     </answer>
-    <answer type="false" title="Как насчёт хоррора?">
+    <answer type="false" title="Как насчёт хоррора?" background="true">
         <node title="Небогатый выбор. Вампиры устроят?">
             <answer type="false" title="Уж лучше зомби">
                 <node title="Широкомаштабная мясорубка или война одного против всех">
@@ -576,7 +576,7 @@
             </answer>
         </node>
     </answer>
-    <answer type="false" title="Читаю только книги с картинками">
+    <answer type="false" title="Читаю только книги с картинками" background="true">
         <node title="Постмодернистские супергерои или мучающийся призрак?">
             <answer title="Супергерои">
                 <book author="Алан Мур" title="Хранители"/>
@@ -586,9 +586,9 @@
             </answer>
         </node>
     </answer>
-    <answer type="false" title="Того и другого. И можно без хлеба!">
-        <node title="А в прошлом или будующем">
-            <answer title="В будующем">
+    <answer type="false" title="Того и другого. И можно без хлеба!" background="true">
+        <node title="А в прошлом или будущем">
+            <answer title="В будущем">
                 <node title="Вы гик от математики?">
                     <answer type="true">
                         <book author="Нил Стивенсон" title="Анафем"/>
