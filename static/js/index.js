@@ -39,12 +39,12 @@ $(document).ready(function () {
     }
 
     function changeBackground(title) {
-        var url = 'url("http://localhost:63342/books/static/background/' + normalizeString(title) + '.jpg")';
-        
-        $('body')
-            .css({"background-image": url})
-            .animate({'opacity': 1});
-        console.log(url);
+        // var url = 'url("http://localhost:63342/books/static/background/' + normalizeString(title) + '.jpg")';
+        //
+        // $('body')
+        //     .css({"background-image": url})
+        //     .animate({'opacity': 1});
+        // console.log(url);
     }
 
     function printNode(children) {
@@ -82,7 +82,7 @@ $(document).ready(function () {
 
             h3.innerHTML = author;
             h2.innerHTML = title;
-            img.setAttribute('src', 'static/books/' + normalizeString(author) + ' ' + normalizeString(title) + '.jpg');
+            img.setAttribute('src', 'https://raw.githubusercontent.com/snpefk/books/gh-pages/static/books/' + normalizeString(author) + ' ' + normalizeString(title) + '.jpg');
 
             updateSpan.className = 'glyphicon glyphicon-refresh';
 
