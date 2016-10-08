@@ -35,7 +35,7 @@ $(document).ready(function () {
     }
 
     function normalizeString(string) {
-        return string.replace(/([<>:"/\|?*]+)/ig, '');
+        return string.replace(/([<>:"/\|?*]+)/ig, '').toLowerCase();
     }
 
     function changeBackground(title) {
